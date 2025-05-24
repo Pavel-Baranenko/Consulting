@@ -1,0 +1,68 @@
+html,
+body {
+   height: 100%;
+}
+
+body {
+   overflow-x: hidden;
+   font-family: 'Montserrat', sans-serif;
+   background: #000;
+   color: var(--White, #FFF);
+   font-size: 32px;
+   font-style: normal;
+   font-weight: 500;
+   line-height: 1.25;
+}
+
+
+
+button {
+   cursor: pointer;
+}
+
+.wrapper {
+   display: flex;
+   flex-direction: column;
+   min-height: 100%;
+}
+
+.main {
+   flex: 1 0 auto;
+}
+
+.footer {
+   flex: 0 0 auto;
+}
+
+.container {
+   max-width: 1440;
+   margin: 0 auto;
+   padding: 0 64px;
+}
+
+a {
+   color: inherit;
+   cursor: pointer;
+}
+
+::-webkit-scrollbar {
+   width: 0;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+   -webkit-appearance: none;
+   margin: 0;
+}
+
+::-webkit-scrollbar {
+   width: 0 !important;
+}
+
+.section.white {
+   cursor: url('../images/Kursor-black.svg'), auto;
+}
+
+.section.black {
+   cursor: url('../images/Kursor.svg'), auto;
+}
